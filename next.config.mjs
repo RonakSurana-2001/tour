@@ -19,9 +19,9 @@ const withMDX = createMDX({
 const nextConfig = {
   pageExtensions: ["js", "jsx", "md", "mdx", "ts", "tsx"],
 
-  output: "export",
+  // output: "export",
 
-  images: { unoptimized: true },
+  // images: { unoptimized: true },
   compiler: {
     styledComponents: true,
   },

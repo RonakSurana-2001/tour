@@ -1,5 +1,7 @@
+"use client"
 import styles from "./styles/page.module.css";
-import Link from "next/link";
+// import Link from "next/link";
+import { Link } from '@chakra-ui/next-js'
 import cx from "classnames";
 import { interFont, outfitFont } from "./styles/fonts";
 import RightArrow from "./styles/icons/RightArrow";
